@@ -33,7 +33,7 @@ export default class Flight {
   }
 
   get statusLabel() {
-    if (this.isOnGround) return 'On the ground';
+    if (this.isOnGround) return 'Arrived';
     const map = {
       EN_ROUTE: 'En route',
       SCHEDULED: 'Scheduled',

@@ -132,7 +132,7 @@ export default function FlightDetailPage() {
         ]} />
         <InfoTile label="Position" lines={
           (!flight.position || flight.isOnGround)
-            ? ['On the ground']
+            ? [' Arrived']
             : [`Alt ${flight.position.altitude} ft`,
                `Spd ${flight.position.groundSpeed} kts`,
                `Hdg ${flight.position.heading}°`]
